@@ -4,6 +4,7 @@ const toGeojson = require("./toGeojson.js")
 const prepareData = require('./prepareData')
 const db = require("./db.js");
 const getDep = require("./getDep.js");
+const fs = require('fs');
 
 const Flatbush = require('flatbush');
 
